@@ -20,7 +20,8 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 For sending SMS fast2sms service is used in the backend
 
-While running on localhost, make sure to change the api path in api.js file inside client/src
+While running on localhost, make sure to change the api path in api.js file inside client/src.
+Also create .env file and generate your api_key from fast2sms.
 
 ![img1](https://user-images.githubusercontent.com/31589202/118260492-041ae200-b4d0-11eb-9d90-efcc272b7ef2.JPG)
 
