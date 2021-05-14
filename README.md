@@ -2,6 +2,8 @@
 
 ### `Deployed url` - https://send-message-to-contacts.netlify.app/
 
+Backend is deployed using Heroku, whereas frontend using netlify.
+
 ### `Additional libraries used`
 1. Axios
 2. Redux
@@ -15,3 +17,8 @@ install frontend and backend dependency using "npm install" for both client and 
 ### `npm start`
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+
+For sending SMS fast2sms service is used in the backend
+
+![img1](https://user-images.githubusercontent.com/31589202/118260492-041ae200-b4d0-11eb-9d90-efcc272b7ef2.JPG)
+
