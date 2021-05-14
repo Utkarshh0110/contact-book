@@ -1,0 +1,102 @@
+
+.message__root__container{
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #71b7e6, #9b59b6);
+    padding: 10px;
+}
+
+.message__user__container {
+  max-width: 700px;
+  width: 100%;
+  background: white;
+  padding: 25px 30px;
+  border-radius: 5px;
+}
+
+.message__user__container .message__title {
+  font-size: 25px;
+  font-weight: 500;
+  position: relative;
+}
+
+.message__user__container .message__title::before {
+  content: "";
+  position: absolute;
+  height: 3px;
+  left: 0;
+  bottom: 0;
+  width: 30px;
+  height: 3px;
+  background: linear-gradient(135deg, #71b7e6, #9b59b6);
+}
+
+/* .user__container form .user__details{
+    display: flex;
+    flex: 1;
+} */
+
+form .message__user__details .message__user__input-box {
+  margin: 20px 0 12px 0;
+  width: calc(100% / 2 -20px);
+  margin-bottom: 5px;
+}
+
+.message__user__details .message__user__input-box .details {
+  display: block;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+
+.message__user__details .message__user__input-box input {
+  height: 45px;
+  width: 100%;
+  outline: none;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  padding-left: 15px;
+  font-size: 16px;
+  border-bottom-width: 3px;
+  transform: all 0.3s ease;
+}
+
+.message__user__details .message__user__input-box input:focus,
+.message__user__details .message__user__input-box input:valid {
+  border-color: #9b59b6;
+}
+
+form .message__button input {
+  height: 100%;
+  width: 100%;
+  margin-top: 5px;
+  outline: none;
+  color: white;
+  background: linear-gradient(135deg, #71b7e6, #9b59b6);
+  font-size: 25px;
+  font-weight: 500;
+  border-radius: 5px;
+  letter-spacing: 1px;
+}
+
+form .message__button input:hover{
+    background: linear-gradient(-135deg, #71b7e6, #9b59b6);
+}
+
+.message__root__input{
+  padding: 20px;
+  margin: 10px;
+}
+
+@media (max-width: 584px){
+    .message__user__container {
+        max-width: 100%;
+    }
+    form .message__user__details .message__user__input-box {
+        margin: 20px 0 12px 0;
+        width: 100%;
+        margin-bottom: 5px;
+      }
+}

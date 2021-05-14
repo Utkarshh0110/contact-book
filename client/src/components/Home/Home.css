@@ -1,0 +1,119 @@
+
+.home__container{
+    display: flex;
+    justify-content: center;
+}
+
+
+ul{
+    position: absolute;
+    width: 450px;
+    height: 400px;
+    margin: 100px auto 0;
+    padding: 5px;
+    box-sizing: border-box;
+    margin-top: 175px;
+}
+
+ul li{
+    display: flex;
+    justify-content: space-between;
+    background: rgba(255, 255, 255, .1);
+    padding: 20px 20px;
+    border-radius: 20px;
+    color:#fff;
+    margin: 6px 0;
+    transition: .5s;
+}
+
+ul li span{
+    color: black;
+    font-size: 20px;
+}
+
+
+ul li:nth-child(1){
+    background: rgba(255, 255, 255, 0.6);
+}
+ul li:nth-child(2){
+    background: rgba(255, 255, 255, 0.4);
+}
+ul li:nth-child(3){
+    background: rgba(255, 255, 255, 0.2);
+}
+
+
+
+
+ul li:hover{
+    transform: scale(1.06);
+    background: linear-gradient(135deg, #71b7e6, #9b59b6);
+}
+
+.show__details{
+    border: 0;
+    outline: none;
+    cursor: pointer;
+    background-color: greenyellow;
+    border-radius: 10px;
+    transition: .5s;
+}
+
+.show__details:hover{
+    transform: scale(1.06);
+    background: linear-gradient(135deg, #71b7e6, #9b59b6);
+}
+
+.home__container__details{
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+
+/* .home__container__details {
+    margin-left: 20%;
+    margin-bottom: 20%;
+} */
+
+.home__button{
+    font-size: 20px;
+    background-color: greenyellow;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+    background-color: greenyellow;
+    border-radius: 10px;
+    margin: 0px 0px 0px 0px;
+    
+    transition: .2s ease;
+}
+
+.home__button:hover{
+    transform: scale(1.09);
+    margin-right: 25px;
+    background: linear-gradient(red,yellow);
+}
+
+.home__button1{
+    font-size: 20px;
+    transition: .2s ease;
+    background-color: greenyellow;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+    background-color: greenyellow;
+    border-radius: 10px;
+    margin: 0px 0px 0px 10px
+}
+
+.home__button1:hover{
+    transform: scale(1.09);
+    margin-left: 25px;
+    background: linear-gradient(red,yellow);
+}
+
+@media (max-width: 600px){
+    .home__button1 {
+        margin: 30px 0px 0px 10px
+    }
+}
